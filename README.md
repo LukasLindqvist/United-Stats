@@ -1,3 +1,3 @@
 # United-Stats
 
-first school project with focus on css
+first school project with focus on css/html
