@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap + css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Facts</title>
+</head>
+<!-- Gjord av Lukas Lindqvist -->
+<body>      
+  <!-- Website navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand">
+        <img src="Bilder/UnitedLogo.png" alt="Manchester United Logo" width="50" height="50">
+      </a>
+
+      <button class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="facts.html">Facts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- Fact window on the page -->
+
+  <div class="container-fluid" id="factsContainer">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="displayCard">
+          <div class="headingTxt">
+            <h1>Club stats and info</h1>
+            <h2>Titles Won</h2>
+            <p></p>
+            <div class="trophy">
+              <h3>Premier League</h3>
+                <div id="premierLeague">
+                  <img class="img-fluid" src="bilder/PL_Trophy.png" alt="" id="plImg">
+                </div>
+                <h3>Champions League</h3>
+                <div id="championsLeague">
+                  <img class="img-fluid" src="bilder/CL_Trophy.png" alt="" id="clImg">
+                </div>
+                <h3>FA-Cup</h3>
+                <div id="faCup">
+                  <img class="img-fluid" src="bilder/Fa_Cup_Trophy.png" alt="" id="faImg">
+                </div>
+                <h3>League Cup</h3>
+                 <div id="leagueCup">
+                  <img class="img-fluid" src="bilder/League_Cup_Trophy.png" alt="" id="leagueImg">
+                </div>
+                  <div class="clubFact">
+                    <h4>Some fact about the club</h4>
+                    <p>Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed "the Red Devils", the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.</p>
+
+                    <p>Manchester United have won more trophies than any other club in English football, with a record 20 League titles, 12 FA Cups, five League Cups and a record 21 FA Community Shields. United have also won three European Cups/UEFA Champions Leagues, one UEFA Europa League, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club became the first in the history of English football to achieve the continental European treble. By winning the UEFA Europa League in 2016–17, they became one of five clubs to have won all three main UEFA club competitions. </p>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+
+
+    <!-- Most goals, most assists and most games played for the club CARDS-->
+    <!-- Goal Card -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="statCard">
+          <div class="statLeader">
+            <h1>Goals</h1>
+            <img src="bilder/WayneRoney.jpg" alt="Wayne Rooney">
+            <h2>1.</h2>
+            <h3>Wayne</h3>
+            <h3>Rooney</h3>
+            <h4>Center Forward</h4>
+            <p>253</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>2.</h2>
+            <img src="bilder/bobby_charlton_S.jpg" alt="Bobby Charlton">
+            <h3>Bobby Charlton</h3>
+            <h4>Center-Forward</h4>
+            <p>249</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>3.</h2>
+            <img src="bilder/Denis_Law.jpg" alt="Denis Law">
+            <h3>Denis Law</h3>
+            <h4>Center-Forward</h4>
+            <p>237</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>4.</h2>
+            <img src="bilder/Jack_Rowley_S.jpg" alt="Jack Rowley">
+            <h3>Jack Rowley</h3>
+            <h4>Center-Forward</h4>
+            <p>211</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>5.</h2>
+            <img src="bilder/George_Best.jpg" alt="George Best">
+            <h3>George Best</h3>
+            <h4>Center-Forward</h4>
+            <p>179</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Assist Card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="statCard">
+          <div class="statLeader">
+            <h1>Assists</h1>
+            <img src="bilder/Ryan_Gigs.jpg" alt="Ryan Giggs">
+            <h2>1.</h2>
+            <h3>Ryan</h3>
+            <h3>Giggs</h3>
+            <h4>Center Forward</h4>
+            <p>251</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>2.</h2>
+            <img src="bilder/WayneRoney.jpg" alt="Wayne Rooney">
+            <h3>Wayne Rooney</h3>
+            <h4>Center-Forward</h4>
+            <p>146</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>3.</h2>
+            <img src="Bilder/David_Beckham.jpg" alt="David Beckham">
+            <h3>David Beckham</h3>
+            <h4>Center-Forward</h4>
+            <p>104</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>4.</h2>
+            <img src="bilder/Paul_Scholes.jpg" alt="Paul Scholes">
+            <h3>Paul Scholes</h3>
+            <h4>Center-Forward</h4>
+            <p>74</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>5.</h2>
+            <img src="bilder/nani.jpg" alt="Nani">
+            <h3>Nani</h3>
+            <h4>Center-Forward</h4>
+            <p>73</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Matches played card -->
+      <div class="col-lg-4 col-md-6">
+        <div class="statCard">
+          <div class="statLeader">
+            <h1>Games Played</h1>
+            <img src="bilder/Ryan_Gigs.jpg" alt="Ryan Giggs">
+            <h2>1.</h2>
+            <h3>Ryan</h3>
+            <h3>Giggs</h3>
+            <h4>Center Forward</h4>
+            <p>963</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>2.</h2>
+            <img src="bilder/bobby_charlton_S.jpg" alt="Bobby Charlton">
+            <h3>Bobby Charlton</h3>
+            <h4>Center-Forward</h4>
+            <p>758</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>3.</h2>
+            <img src="bilder/Paul_Scholes.jpg" alt="Paul Scholes">
+            <h3>Paul Scholes</h3>
+            <h4>Center-Forward</h4>
+            <p>718</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>4.</h2>
+            <img src="bilder/Bill_Faulkes.jpg" alt="Bill Foulkes">
+            <h3>Bill Foulkes</h3>
+            <h4>Center-Forward</h4>
+            <p>688</p>
+          </div>
+          <div class="otherPlayer">
+            <h2>5.</h2>
+            <img src="bilder/Gary_Neville.jpg" alt="Gary Neville">
+            <h3>Gary Neville</h3>
+            <h4>Center-Forward</h4>
+            <p>602</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- Legends of the club-->
+
+  <div class="container-fluid" id="legendContainer">
+    <h1>Legends of the club</h1>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="wrap">
+          <div class="legendPlayer">
+            <img class="img-fluid" src="bilder/Ryan_Gigs.jpg" alt="Ryan Gigs">
+            <h2>Ryan</h2>
+            <h3>Giggs</h3>
+            <div class="overlay">
+              <div class="text">
+                <p>Born: 1973</p>
+                <p>Goals: 109</p>
+                <p>Assists: 251</p>
+                <p>Country: Wales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="wrap">
+          <div class="legendPlayer">
+            <img class="img-fluid" src="bilder/Andy_Cole.jpg" alt="Andy Cole">
+            <h2>Andy</h2>
+            <h3>Cole</h3>
+            <div class="overlay">
+              <div class="text">
+                <p>Born: 1971</p>
+                <p>Goals: 121</p>
+                <p>Assists: 44</p>
+                <p>Country: England/Jamaica</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="col-lg-3 col-md-6">
+        <div class="wrap">
+          <div class="legendPlayer">
+            <img class="img-fluid" src="bilder/Cristiano_Ronaldo.jpg" alt="Cristiano Ronaldo">
+            <h2>Cristiano</h2>
+            <h3>Ronaldo</h3>
+            <div class="overlay">
+              <div class="text">
+                <p>Born: 1985</p>
+                <p>Goals: 128</p>
+                <p>Assists: 71</p>
+                <p>Country: Portugal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="col-lg-3 col-md-6">
+        <div class="wrap">
+          <div class="legendPlayer">
+            <img class="img-fluid" src="bilder/Eric_Cantona.jpg" alt="Eric Cantona">
+            <h2>Eric</h2>
+            <h3>Cantona</h3>
+            <div class="overlay">
+              <div class="text">
+                <p>Born: 1966</p>
+                <p>Goals: 81</p>
+                <p>Assists: 62</p>
+                <p>Country: France</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="wrap">
+          <div class="legendPlayer">
+            <img class="img-fluid" src="bilder/George_Best.jpg" alt="George Best">
+            <h2>George</h2>
+            <h3>Best</h3>
+            <div class="overlay">
+              <div class="text">
+                <p>Born: 1946</p>
+                <p>Goals: 179</p>
+                <p>Assists: 3</p>
+                <p>Country: Northern Ireland</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="wrap">
+          <div class="legendPlayer">
+            <img class="img-fluid" src="bilder/OGS_Legend.jpg" alt="Ole Gunnar Solskjær ">
+            <h2>Ole</h2>
+            <h3>Gunnar Solskjær</h3>
+            <div class="overlay">
+              <div class="text">
+                <p>Born: 1973</p>
+                <p>Goals: 126</p>
+                <p>Assists: 50</p>
+                <p>Country: Norway</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+      <div class="col-lg-3 col-md-6">
+        <div class="wrap">
+          <div class="legendPlayer">
+            <img class="img-fluid" src="bilder/Paul_Scholes.jpg" alt="Paul Scholes">
+            <h2>Paul</h2>
+            <h3>Scholes</h3>
+            <div class="overlay">
+              <div class="text">
+                <p>Born: 1974</p>
+                <p>Goals: 152</p>
+                <p>Assists: 74</p>
+                <p>Country: England</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+      <div class="col-lg-3 col-md-6">
+        <div class="wrap">
+          <div class="legendPlayer">
+            <img class="img-fluid" src="bilder/Wayne_Roney_legend.jpg" alt="Wayne Roney">
+            <h2>Wayne</h2>
+            <h3>Roney</h3>
+            <div class="overlay">
+              <div class="text">
+                <p>Born: 1985</p>
+                <p>Goals: 253</p>
+                <p>Assists: 146</p>
+                <p>Country: England</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>           
+    </div>
+  </div>
+
+
+      <!--footer-->
+      <div class="content-fluid">
+        <footer>
+          <div class="social-media">
+            <a href="https://www.instagram.com/manchesterunited" target="_blank">
+              <img class="instagram" src="Bilder/instagram.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com/ManUtd" target="_blank">
+              <img class="twitter" src="Bilder/twitter.png" alt="twitter">
+            </a>      
+            <a href="https://www.facebook.com/manchesterunited" target="_blank">
+              <img class="facebook" src="Bilder/facebook.png" alt="facebook">
+            </a>    
+            <a href="https://www.youtube.com/manutd" target="_blank">
+              <img class="youtube" src="Bilder/youtube.png" alt="youtube">
+            </a>  
+          </div>
+        </footer>
+      </div>
+      <!-- js link for trophy img creation -->
+      <script src="script.js"></script>
+</body>
+</html>
